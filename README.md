@@ -15,12 +15,17 @@ This project demonstrates CRUD operations using **Spring Data JPA** and **MySQL*
 ---
 
 ## Technologies Used
+![Java](https://img.shields.io/badge/Java-21-blue)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-3.5.5-brightgreen)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)
+
 - Java 21
 - Spring Boot 3.5.5
 - Spring Data JPA
 - MySQL
 - Maven
 - Postman (for testing)
+- 
 
 ---
 
