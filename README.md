@@ -24,4 +24,36 @@ This project demonstrates CRUD operations using **Spring Data JPA** and **MySQL*
 
 ---
 
-## Project Structure
+
+## Setup & Run
+
+1. **Clone the repository**:
+
+git clone https://github.com/<username>/Spring-Boot-Student-API.git
+cd Spring-Boot-Student-API
+Configure MySQL in src/main/resources/application.properties:
+
+properties
+Copy code
+spring.datasource.url=jdbc:mysql://localhost:3306/sample_schema
+spring.datasource.username=root
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=update
+Run the application:
+
+./mvnw spring-boot:run
+or run SpringOneApplication.java from your IDE.
+
+Test endpoints using Postman:
+
+POST http://localhost:8081/api/students
+
+Future Enhancements:-
+Add PUT /api/students/{id} to update student details
+Add DELETE /api/students/{id} to remove a student
+Add validation for input fields
+Add pagination for GET endpoint
+
+License
+This project is open source and available under the MIT License.
+
